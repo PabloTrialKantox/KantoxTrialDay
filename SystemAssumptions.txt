@@ -14,5 +14,5 @@ Rules Assumptions:
 	- User chooses to which product the rule is applied to.
 	- Amount of products must be an integer > 0.
 	- Special rules can be applied to multiple products.
-	- Special Rule 1 is automatically applied for any given number.
+	- Special Rule 1 is applied for even numbers as well.
 	- All prices and percentages must be > 0 and smaller than original.
