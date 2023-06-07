@@ -1,0 +1,18 @@
+Product Assumptions:
+	- The product is a FrontEnd only application.
+	- The system does not have an account system.
+	- Product Code, Name and Price are mandatory fields.
+	- There is a list of invalid characters for text fields like Name and Product Code.
+	- Product Code field follows a stablished format.
+	- The quantity for any given item must be an integer > 0.
+	- Configuration file includes an upper limit for any given item.
+	- All products will be in GBP.
+	
+Rules Assumptions:
+	- A Special rule only takes into account a single product's quantity.
+	- Only one Special Rule can be applied to a single product at the same time.
+	- User chooses to which product the rule is applied to.
+	- Amount of products must be an integer > 0.
+	- Special rules can be applied to multiple products.
+	- Special Rule 1 is automatically applied for any given number.
+	- All prices and percentages must be > 0 and smaller than original.
