@@ -20,7 +20,7 @@ Feature: Special Rules
 			| SecondAndThird  |
 			| FirstAndThird   |
 	
-	# These following scenarios may not be necessary depending on implementation
+	# The next two scenarios may not be necessary depending on implementation
 	# but since from a logical point of view they are plausible, they have been included.
 	
 	@Mock @Low
